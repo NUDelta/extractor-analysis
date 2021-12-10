@@ -11,13 +11,11 @@ seaborn = "*"
 scipy = "*"
 tqdm = "*"
 gspread = "*"
-gmaps = "*"
-pymongo = "*"
-geopy = "*"
+pymongo = {extras = ["srv"], version = "*"}
 "oauth2client" = "*"
 fpdf = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.10.0"
